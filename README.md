@@ -21,7 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* Create database postgres
+
+
+* Create database 'postgres' en PostgreSql
 
 * Create Table books
 
@@ -33,6 +35,7 @@ Create Column author
 Create Column titulo
 
 Create Column precio
+
 -------------------------
 
 
