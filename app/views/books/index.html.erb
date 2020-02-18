@@ -1,0 +1,243 @@
+
+
+<%= stylesheet_link_tag    'books', media: 'all', 'data-turbolinks-track' => true %>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#FFD700;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #fff;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <div class="container">
+<div class="col-sm-3" style="padding:3px;">
+  <h3>Store</h3>
+</div>
+<div class="col-sm-9" style="padding:10px;">
+  <a href="#">My city: <span style="color:#777;">Los Angeles</span></a>
+  <a href="#">8 800 505-04-83</a>
+  <a href="#">shapping</a>
+  <a href="#">blog</a>
+  <a href="#">Company</a>
+  <a href="#">My account</a>
+</div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+
+  </a>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="container">
+<div class="col-sm-3"></div>
+<div class="col-sm-4"><div style="padding:5px;"><h3>Creams & gels</h3></div></div>
+<div class="col-sm-5 text-right">
+  <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="col-sm-3"></div>
+
+<div class="col-sm-3">BRAND: ALL BRANDS</div>
+<div class="col-sm-3">SKIN TYPE: FOR OILY SKIN</div>
+<div class="col-sm-1">AGE:30+</div>
+
+<div class="col-sm-2">SORT:BY POPULARITY</div>
+</div>
+
+
+
+
+<div class="container" style="padding:10px;">
+<div class="col-sm-3">1</div>
+<div class="col-sm-7">
+    <input type="text" class="form-control" placeholder="Search products by SKU or name">
+ </div>
+<div class="col-sm-2">
+      <button type="submit" class="btn btn-primary">MY CART</button>
+</div>
+</div>
+
+
+
+
+<div class="container" style="padding:10px;">
+
+<div class="col-sm-3" style="border:1px solid#CCC;border-radius:10px;top: -175px; background-color:#fff;">
+
+
+
+<ul><br>
+  <li><a href="#" style="color:#777">ALL CATEGORIES</a></li><br>
+  <li><a href="#"><b>FACE</b></a></li><br>
+  <li><a href="#" style="color:#FFD700">Cream & gels</a></li>
+  <li><a href="#" style="color:#777">Patches</a></li>
+  <li><a href="#" style="color:#777">Emulsions</a></li>
+  <li><a href="#" style="color:#777">Toners</a></li>
+  <li><a href="#" style="color:#777">Face cleansing</a></li>
+  <li><a href="#" style="color:#777">Make up removal</a></li>
+  <li><a href="#" style="color:#777">Scrubs</a></li>
+  <li><a href="#" style="color:#777">Peeling</a></li>
+  <li><a href="#" style="color:#777">Masks</a></li><br>
+ 
+  <li><a href="#"><b>BODY</b></a></li>
+  <li><a href="#"><b>FOOT</b></a></li>
+  <li><a href="#"><b>HANDS</b></a></li>
+  <li><a href="#"><b>HAIR</b></a></li>
+  <li><a href="#"><b>MAKEUP</b></a></li>
+</ul>
+
+
+<hr><br>
+<img width="100%" src="https://staging.amabie.com/assets/products/1574/noonismoothingtoner.jpg">
+
+
+
+</div>
+
+
+
+
+<div class="col-sm-9">
+  
+<div class="row text-center">
+<% @books.each do |books| %>
+<div class="col-sm-3" style="padding:0px 40px;">
+  <img width="100%" height="130px" src="<%= books.author %>"/>
+
+  <h3><%= books.titulo %></h3>
+  <div style="color:#FFD700"><h4><%= books.precio %></h4></div>
+</div>
+<% end %>
+</div>
+
+
+
+</div>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

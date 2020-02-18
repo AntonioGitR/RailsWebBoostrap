@@ -1,0 +1,24 @@
+<h1>Startup#index</h1>
+<p>Find me in app/views/startup/index.html.erb</p>
+
+
+
+
+<% @books.each do |book| %>
+  <div class="media">
+    <%= link_to book_path(book) do %>
+      <div class="media-body">
+        <h4><%= book.title %></h4>
+        <p><%= book.author %></p>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<% if @next_page %>
+  <nav>
+    <ul class="pager">
+      <li><%= link_to "More", books_path(page: @next_page) %></li>
+    </ul>
+  </nav>
+<% end %>
