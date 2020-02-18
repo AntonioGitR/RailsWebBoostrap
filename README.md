@@ -21,9 +21,9 @@ Things you may want to cover:
 
 * Deployment instructions
 
-Create database postgres
+* Create database postgres
 
-Create Table books
+* Create Table books
 
 -------------------------
 Create Column idBook
