@@ -27,9 +27,13 @@ Things you may want to cover:
 
 -------------------------
 Create Column idBook
+
 Create Column author
+
 Create Column titulo
+
 Create Column precio
+-------------------------
 
 
 * ...
